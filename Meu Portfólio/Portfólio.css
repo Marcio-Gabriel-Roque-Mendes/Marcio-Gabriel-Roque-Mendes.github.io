@@ -1,0 +1,32 @@
+img {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+body{
+  font-family: inter;
+  background-color: #328391;
+  color: whitesmoke;
+  line-height: 30px; 
+  /* Referência: https://www.htmlprogressivo.net/2014/02/Espacamento-letra-palavra-linha-letter-spacing-word-line-height-Tutorial.html?m=1#:~:text=Espa%C3%A7amento%20entre%20Linhas%20em%20CSS%20%2D%20line%2Dheight%3A%20%25&text=Para%20definirmos%20o%20espa%C3%A7amento%20entre,da%20linha%2C%20em%20ingl%C3%AAs). */
+}
+
+#port{
+  font-family: raleway;
+  font-size: 30px;
+}
+
+.tagesp{
+  font-style: italic;
+}
+
+.formt{
+  color:aliceblue;
+  font-size: 24px;
+}
+
+.nav-links a{
+  display: inline-block;
+  width: 100px;
+}
