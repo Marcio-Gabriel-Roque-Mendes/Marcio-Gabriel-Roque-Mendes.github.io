@@ -11,6 +11,8 @@ body{
   line-height: 30px; 
   text-align: center;
   border: 1px whitesmoke solid;
+  margin-left: 90px;
+  margin-right: 90px;
   /* Referência: https://www.htmlprogressivo.net/2014/02/Espacamento-letra-palavra-linha-letter-spacing-word-line-height-Tutorial.html?m=1#:~:text=Espa%C3%A7amento%20entre%20Linhas%20em%20CSS%20%2D%20line%2Dheight%3A%20%25&text=Para%20definirmos%20o%20espa%C3%A7amento%20entre,da%20linha%2C%20em%20ingl%C3%AAs). */
 }
 
@@ -24,8 +26,12 @@ body{
 }
 
 .formt{
-  color:aliceblue;
+  color: mediumturquoise;
   font-size: 24px;
+}
+
+.link-blogs{
+  color: aqua;
 }
 
 .nav-links a{
@@ -41,3 +47,24 @@ body{
 .nav-links a:active {
   color: unset;
 }
+
+ul li::before{
+  position: relative;
+}
+
+#minhafoto{
+  margin-bottom: -10px;
+}
+
+.descricao{
+  color: lightsteelblue;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.imagem-container {
+  height: 300px;
+}
+

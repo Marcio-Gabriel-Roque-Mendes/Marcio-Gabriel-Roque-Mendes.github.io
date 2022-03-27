@@ -12,8 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Raleway:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <header id="cabecalho">
+<header id="cabecalho">
     <hr>
     <nav class="nav-links">
       <a href="#name">Meu nome</a>
@@ -26,15 +25,26 @@
   </header>
 
 <!-- Referência: https://metring.com.br/separador-horizontal-em-html-e-css -->
+
+<body>
   
   <article>
     <section>
     <h1 id="port">Portfólio</h1>
-    <img id="minhafoto" src="minha-foto.png"
-      alt="Um homem negro, com uma camisa cor de caramelo e um parede azul claro ao fundo" ;>
-    <h2>Sobre mim:</h2>
-    <h3 class="formt" id="name">Nome:</h3>
-    <p>Marcio Gabriel Roque Mendes</p>
+    <div>
+      <div class="imagem-container">
+        <img id="minhafoto" src="minha-foto.png"
+      alt=>
+      <p class="descricao">Descrição: Um homem negro, com uma camisa cor caramelo e um parede azul claro ao fundo</p>
+      </div>
+    </div>
+    
+    <div>
+      <h2>Sobre mim:</h2>
+      <h3 class="formt" id="name">Nome:</h3>
+      <p>Marcio Gabriel Roque Mendes</p>
+    </div>
+
     <dl>
       <h3 id="me">Um pouco mais sobre mim:<br></h1>
         <dd>Sou espontâneo, alegre e curioso.</dd>
@@ -58,9 +68,9 @@
 
   <nav>
     <h3 class="formt" id="blogs">Blogs que eu indico:</h3>
-    <a href="https://olhardigital.com.br/editorias/ciencia-e-espaco/" target="_blank">Olhar Digital <br></a>
-    <a href="https://super.abril.com.br/ciencia/" target="_blank">Super Interessante <br></a>
-    <a href="https://vocesa.abril.com.br/" target="_blank">Você S/A</a>
+    <a class="link-blogs" href="https://olhardigital.com.br/editorias/ciencia-e-espaco/" target="_blank" >Olhar Digital <br></a>
+    <a class="link-blogs" href="https://super.abril.com.br/ciencia/" target="_blank">Super Interessante <br></a>
+    <a class="link-blogs" href="https://vocesa.abril.com.br/" target="_blank">Você S/A</a>
   </nav>
 
   <footer><br>
